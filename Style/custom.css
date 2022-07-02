@@ -10,12 +10,46 @@ p { margin:0; }
 cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 
-@font-face {
-    font-family: "ElMessiri";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-      src: local("ElMessiri"),
-           url("../fonts/ElMessiri.ttf") format("ttf"),
-           url("../fonts/ElMessiri.woff") format("woff"),
-           url("../fonts/ElMessiri.woff2") format("woff2"), 
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  overflow: auto;
+}
+
+.container-big {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  overflow: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.menu-panel {
+  
+}
+.menu-panel li {
+  float: left;
+
+}
+.menu-panel li a {
+  text-transform: uppercase;
+  padding: 15px 13px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-button {
+  
+}
+
+.preview {
+  font-family: 'El Messiri', sans-serif;
+}
