@@ -10,3 +10,51 @@ p { margin:0; }
 cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 
+* {
+  font-family: 'El Messiri', sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  overflow: auto;
+}
+.container-big {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  overflow: auto;
+}
+
+.header-logo {
+
+
+}
+
+.navigation {
+  
+}
+
+.navigation li {
+  float: left;
+  
+}
+.navigation li a {
+  float: left;
+  padding: 15px 13px;
+}
+
+.header-button {
+
+}
