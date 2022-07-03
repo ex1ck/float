@@ -10,7 +10,22 @@ p { margin:0; }
 cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 
-* {
+@font-face {
+  font-family: "proximanova_regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+    src: local("proximanova_regular"),
+         url("../fonts/proximanova_regular.ttf") format("ttf"),
+         url("../fonts/proximanova_regular.woff") format("woff"),
+         url("../fonts/proximanova_regular.woff2") format("woff2"),   
+}
+
+.navigation li a {
+  font-family: 'proximanova_regular';
+}
+
+.firstlook {
   font-family: 'El Messiri', sans-serif;
 }
 
@@ -24,11 +39,12 @@ fieldset { border-width:0; padding:0; margin:0; }
 
 .container {
   width: 100%;
-  max-width: 970px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0px 15px;
   overflow: auto;
 }
+
 .container-big {
   width: 100%;
   max-width: 1300px;
@@ -37,24 +53,44 @@ fieldset { border-width:0; padding:0; margin:0; }
   overflow: auto;
 }
 
-.header-logo {
-
-
-}
-
 .navigation {
-  
+  color: white; 
 }
 
 .navigation li {
-  float: left;
-  
+  float: left;  
 }
+
 .navigation li a {
   float: left;
-  padding: 15px 13px;
+  padding: 0 13px;
 }
 
 .header-button {
-
+color: white;
 }
+
+.firstlook {
+  color: white;
+}
+
+.secondlook {
+  color: white;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.secondbox {
+  width: 100%;
+  max-width: 1300px;
+}
+
+.firstbox li {
+  float: right;
+  margin: 4px;
+  color: white;
+  width: 415px;
+  height: 260px;
+  display: inline;
+}
+
+
