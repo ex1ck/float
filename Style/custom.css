@@ -26,8 +26,7 @@ body {
 }
 
 .navigation li a {
-  font-family: 'proximanova_regular';
-  
+  font-family: 'proximanova_regular';  
 }
 
 .firstlook {
@@ -50,8 +49,33 @@ body {
   overflow: auto;
 }
 
+.container p {
+  position: absolute;
+  width: 241px;
+  height: 34px;
+  left: 842px;
+  top: 305px;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+}
+
 .container h1 {
   margin-top: 40px;
+  position: absolute;
+  width: 587px;
+  height: 180px;
+  left: 669px;
+  top: 379px;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  text-align: center;
 }
 
 .container-big {
@@ -59,9 +83,7 @@ body {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0px 13px;
-  overflow: auto;
-
-  
+  overflow: auto; 
 }
 
 .navigation {
@@ -87,14 +109,24 @@ color: white;
 }
 
 .secondlook {
+  float: right;
   color: white;
   margin-top: 121px;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'El Messiri', sans-serif;  
 }
 
 .secondlook h1 {
   position: absolute;
-  left: 719px;
+  width: 336px;
+  height: 59px;
+  left: 792px;
+  top: 897px;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
 }
 
 .secondbox {
@@ -112,7 +144,6 @@ color: white;
   margin-top: 100px;
 }
 
-
-
-
-
+.secondbox ul {
+  margin-bottom: 785px;
+}
