@@ -101,6 +101,19 @@ body {
 
 .header-button {
 color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 15px;
+gap: 10px;
+position: absolute;
+width: 155px;
+height: 36px;
+left: 1455px;
+top: 43px;
+background: #018ABE;
+border-radius: 3px;
 }
 
 .firstlook {
@@ -147,3 +160,5 @@ color: white;
 .secondbox ul {
   margin-bottom: 785px;
 }
+
+
